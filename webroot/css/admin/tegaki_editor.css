@@ -1,0 +1,55 @@
+#TegakiEditor_change_editor_container {
+	margin: -20px 0 20px 0;
+	text-align: left;
+}
+#TegakiEditor_change_editor {
+	display: inline-block;
+	padding: 0 5px;
+	background: #f3f3f3;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	cursor: pointer;
+}
+#TegakiEditor_canvases {
+	position: relative;
+	width: 900px;
+	height: 600px;
+	margin: auto;
+	border: 1px solid #333;
+
+	-ms-user-select: none;
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+#TegakiEditor_layer_draw {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#TegakiEditor_layer_preview {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#TegakiEditor_colors {
+	margin-top: 10px;
+}
+#TegakiEditor_colors li {
+	display: inline-block;
+	margin-right: 5px;
+	padding: 0;
+	width: 20px;
+	height: 20px;
+	border: 1px solid #000;
+	border-radius: 2px;
+}
+#TegakiEditor_sliders {
+	margin: auto;
+	width: 500px;
+	text-align: left;
+}
+#TegakiEditor_slider_weight {
+	margin-bottom: 5px;
+}
