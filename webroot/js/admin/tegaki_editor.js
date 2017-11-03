@@ -134,6 +134,7 @@ $(function(){
 			function refresh(canvasLayerType) {
 				if (canvasLayerType == 'draw') {
 					ctx = contextDraw;
+					ctx.clearRect(0, 0, 900, 600);
 				} else {
 					ctx = contextPreview;
 					ctx.globalAlpha = opacity;
