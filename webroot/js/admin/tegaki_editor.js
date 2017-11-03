@@ -51,6 +51,7 @@ $(function(){
 			$('#TegakiEditor_colors li').get(0).click();
 
 			$('#TegakiEditor_slider_weight').slider({
+				min: 1,
 				range: 'min',
 				value: lineWidth,
 				stop: function(event, ui) {
