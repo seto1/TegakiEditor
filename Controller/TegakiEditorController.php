@@ -37,6 +37,8 @@ class TegakiEditorController extends AppController {
 		} else {
 			if ($status) {
 				$this->Session->write('TegakiEditor.editor', true);
+			} else {
+				$this->Session->write('TegakiEditor.editor', false);
 			}
 		}
 

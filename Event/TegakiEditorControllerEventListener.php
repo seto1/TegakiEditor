@@ -26,8 +26,6 @@ class TegakiEditorControllerEventListener extends BcControllerEventListener {
 				$Controller->siteConfigs['editor'] = 'TegakiEditor';
 				// for baser 4.0.8
 				$Controller->viewVars['siteConfig']['editor'] = 'TegakiEditor';
-
-				$Controller->Session->write('TegakiEditor.editor', false);
 			}
 		}
 
